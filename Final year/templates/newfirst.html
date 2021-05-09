@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../static/css/newfirst.css">
+   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+    <title></title>
+  
+</head>
+<body>
+<header class="showcase">
+      <div class="showcase-top">
+       <h1 style="  display: block;
+  font-size: 2em;
+ color: red;
+  font-weight: bold;
+" >HomEServicE </h1>
+        <a href="SignUpPage" class="btn btn-rounded">Become a partner</a>
+      </div>
+      <div class="showcase-content">
+        <h1>Enjoy With Us</h1>
+        <p>All thanks goes to Worker's</p>
+        <!-- <a href="user.html" class="btn btn-xl"
+          >Get Service <i class="fas fa-chevron-right btn-icon"></i
+        ></a> -->
+
+
+<div class="custom-select" style="width:200px;">
+  <select>
+    <option value="0">Select location:</option>
+    <option value="1">Kolkata</option>
+    <option value="2">Mumbai</option>
+    <option value="3">Channi</option>
+    <option value="4">Pune</option>
+    <option value="5">Hyderabad</option>
+    <option value="6">Jaipur</option>
+    <option value="7">Bengalore</option>
+    <option value="8">Surat</option>
+    <option value="9">Kanpur</option>
+    <option value="10">Bhopal</option>
+    <option value="11">Delhi</option>
+    <option value="12">Kochi</option>
+  </select>
+</div>
+<dr>
+
+
+
+<style>
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: red;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #FF0000 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #FF0000 transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: white;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent #FF0000 transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #FF0000;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+</style>
+
+
+
+
+
+
+
+
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Find Servise's" name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<style type="text/css">
+	body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: none;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #FF0000;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #FF0000;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </header>
+    <section class="tabs">
+      <div class="container">
+        <div id="tab-1" class="tab-item tab-border">
+          <i class="fas fa-door-open fa-3x"></i>
+          <p class="hide-sm">Cancel at any time</p>
+        </div>
+        <div id="tab-2" class="tab-item">
+          <i class="fas fa-tablet-alt fa-3x"></i>
+          <p class="hide-sm">Worker's services</p>
+        </div>
+        <div id="tab-3" class="tab-item">
+          <!-- <i class="fas fa-tags fa-3x"></i> -->
+          <p class="hide-sm">Contact with us</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-content">
+      <div class="container">
+        <!-- Tab Content 1 -->
+        <div id="tab-1-content" class="tab-content-item show">
+          <div class="tab-1-content-inner">
+            <div>
+              <p class="text-lg">
+                If you decide Home service isn't for you - no problem. No commitment.
+                Cancel online anytime and any where.
+              </p>
+              <a href="logIn" class="btn btn-lg">Now book a service</a>
+            </div>
+            <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="" />
+          </div>
+        </div>
+
+        <!-- Tab Content 2 -->
+        <div id="tab-2-content" class="tab-content-item">
+          <div class="tab-2-content-top">
+            <p class="text-lg">
+              There are many types of worker's present here Like ...
+            </p>
+            <a href="#" class="btn btn-lg">Book any Service NOW!!</a>
+          </div>
+          <div class="tab-2-content-bottom">
+            <div>
+              <img src="../pic/work2.jpg" alt="image" />
+              <p class=" ext-md">
+                Painters
+              </p>
+              <p class="text-dark">
+               One painter paints the house in 6 hours, so his rate is 1/6 of the house per hour. The other painter takes 9 hrs, so his rate is 1/9 of the house per hour. ... Working together it takes them 3.6 hrs to paint the house.
+              </p>
+            </div>
+            <div>
+              <img src="../pic/work3.jpg" alt="" />
+              <p class="text-md">
+                Electricians
+              </p>
+              <p class="text-dark">
+               It’s possible that you can stop the problem by upgrading to LEDs—but it’s worthwhile to consider the reasons for the problem, do a little investigating and perhaps even call in an electrician if there are signs of underlying issues. Here are some of the most common reasons why your light bulb keeps blowing out.
+              </p>
+            </div>
+            <div>
+              <img src="../pic/work4.jpg" alt="" />
+              <p class="text-md">
+                Carpententers
+              </p>
+              <p class="text-dark">
+                 One carpenter can complete a kitchen in 8 days. With the help of another carpenter, they can do the job together in 4 days
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Content 3 -->
+        <div id="tab-3-content" class="tab-content-item">
+          <div class="text-center">
+            <p class="text-lg">
+              Know about HomEServicE
+            </p>
+            <a href="#" class="btn btn-lg">Connect with us</a>
+          </div>
+  </head>
+  <body>
+        </div>
+      </div>
+</div>
+    </section>
+
+    <footer class="footer">
+      <p>Questions? Call 1800123456</p>
+      <div class="footer-cols">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#"> Originals</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Redeem Gift Cards</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Bs</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+      </div>
+
+    </footer>
+</body>
+<script type="text/javascript">
+  
+  const tabItems = document.querySelectorAll('.tab-item');
+const tabContentItems = document.querySelectorAll('.tab-content-item');
+
+// Select tab content item
+function selectItem(e) {
+  // Remove all show and border classes
+  removeBorder();
+  removeShow();
+  // Add border to current tab item
+  this.classList.add('tab-border');
+  // Grab content item from DOM
+  const tabContentItem = document.querySelector(`#${this.id}-content`);
+  // Add show class
+  tabContentItem.classList.add('show');
+}
+
+// Remove bottom borders from all tab items
+function removeBorder() {
+  tabItems.forEach(item => {
+    item.classList.remove('tab-border');
+  });
+}
+
+// Remove show class from all content items
+function removeShow() {
+  tabContentItems.forEach(item => {
+    item.classList.remove('show');
+  });
+}
+
+// Listen for tab item click
+tabItems.forEach(item => {
+  item.addEventListener('click', selectItem);
+});
+
+
+</script>
+<!-- Script next -->
+
+
+<script type="text/javascript">
+	
+var x, i, j, l, ll, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+
+
+
+
+	
+</script>
+
+
+
+
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="worker.css">
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<body>
+  <div class="cotn_principal">
+<div class="cont_centrar">
+
+  <div class="cont_login">
+<div class="cont_info_log_sign_up">
+  <!-- LOGIN -->
+      <div class="col_md_login">
+<div class="cont_ba_opcitiy">
+        
+        <h2>Worker LOGIN</h2>  
+  <p>Here You can signin as a worker</p> 
+  <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+  </div>
+  </div>
+    <!-- SIGNUP -->
+<div class="col_md_sign_up">
+<div class="cont_ba_opcitiy">
+  <h2>SIGN UP</h2>
+
+  
+  <p>Here you can signup as a worker.</p>
+
+  <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+</div>
+  </div>
+       </div>
+
+    
+    <div class="cont_back_info">
+       <div class="cont_img_back_grey">
+       <img src="https://www.google.com/search?q=bike+riding+sketch&sxsrf=ALeKk01Qjwh4xU8AIFRQlc1Z91Wd2hhNfA:1615953911034&source=lnms&tbm=isch&biw=1366&bih=625#imgrc=b1-JlPFgU2lFwM" alt="" />
+       </div>
+       
+    </div>
+<div class="cont_forms" >
+    <div class="cont_img_back_">
+       <img src="cat.jpeg" alt="" />
+       </div>
+ <div class="cont_form_login">
+<a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+   <h2>LOGIN</h2>
+ <input type="text" placeholder="Email" />
+<input type="password" placeholder="Password" />
+<button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+  </div>
+  
+   <div class="cont_form_sign_up">
+<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+     <h2>SIGN UP</h2>
+<input type="text" placeholder="Name" />
+<input type="email" placeholder="Email" required/>
+ 
+<input type="text" placeholder="Full Address" required/>
+<input type="text" placeholder="City" required/>
+<input type="taxt" placeholder="House No." />
+<input type="Pin" placeholder="Pin" required/>
+<input type="Mobile" placeholder="Mobile No" required />
+<input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"required />
+<input type="password" placeholder="Conferm Password" required/>
+<button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+
+  </div>
+
+    </div>
+    
+  </div>
+ </div>
+</div>
+  
+    <script src="index1.js"></script>
+
+
+</body>
+</html>
